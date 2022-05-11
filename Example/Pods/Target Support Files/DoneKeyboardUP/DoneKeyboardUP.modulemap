@@ -1,0 +1,6 @@
+framework module DoneKeyboardUP {
+  umbrella header "DoneKeyboardUP-umbrella.h"
+
+  export *
+  module * { export * }
+}

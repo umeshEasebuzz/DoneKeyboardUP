@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085B38E462501D34C2EDA42CEAE81029 /* Pods-DoneKeyboardUP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D982B8AFAFD9C2D98881707BC15B1F /* Pods-DoneKeyboardUP_Tests-dummy.m */; };
+		0C0F54AA19A5276E8A111407ECB88DB1 /* DoneKeyboardUP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C3E6C85165B71CBE2C3C7BD6385ED9 /* DoneKeyboardUP-dummy.m */; };
+		264C766107653FDE3C449F06242B4D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		58EEE178B8068287CDC1B298337C10C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F5F07D4260D29C2C60D696778ED6853 /* Pods-DoneKeyboardUP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EFA7448778D56A5E834F6E85F86A67E /* Pods-DoneKeyboardUP_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7842AC36282BC9AA0055C25A /* DoneKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7842AC35282BC9AA0055C25A /* DoneKeyboard.swift */; };
+		817BD6241925B8CB9F6FB34125EE3DDD /* Pods-DoneKeyboardUP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1278E8D1AAB78069B8E394CEC8A9EFCE /* Pods-DoneKeyboardUP_Example-dummy.m */; };
+		CB6F48A1D6C4BE55BDBC9F32558FF5E7 /* DoneKeyboardUP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 651F80C91F5003D02F36108ACE40104E /* DoneKeyboardUP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6136D76A7AD3CF9F3FC1FEAB0735D7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ED9514BA9370BDBF872105626C55BA6E /* Pods-DoneKeyboardUP_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B113122FA7A537A11C53856AAFD2E8C3 /* Pods-DoneKeyboardUP_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		405D43CE794FAA0B787A47DE29F340DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0E8AD4D087DA7D215A1A628E2F28E90;
+			remoteInfo = DoneKeyboardUP;
+		};
+		9EE14E79B09D6374DEB7E477AC2BCFB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E240CE5AF3E350406D87F504D1210E;
+			remoteInfo = "Pods-DoneKeyboardUP_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F78ECDC1878F949F104FB932BD14E8 /* DoneKeyboardUP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DoneKeyboardUP.modulemap; sourceTree = "<group>"; };
+		0B5E81791A337E7B3FD67628A5CD8A2A /* DoneKeyboardUP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DoneKeyboardUP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1270B4C551280DDE882AE809B597BF1C /* DoneKeyboardUP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoneKeyboardUP.release.xcconfig; sourceTree = "<group>"; };
+		1278E8D1AAB78069B8E394CEC8A9EFCE /* Pods-DoneKeyboardUP_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoneKeyboardUP_Example-dummy.m"; sourceTree = "<group>"; };
+		12D982B8AFAFD9C2D98881707BC15B1F /* Pods-DoneKeyboardUP_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoneKeyboardUP_Tests-dummy.m"; sourceTree = "<group>"; };
+		1B57931DDB6A306258F943160F3CB266 /* Pods-DoneKeyboardUP_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoneKeyboardUP_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D6EC764BAD5FCCD892EA7AE96E4A290 /* Pods-DoneKeyboardUP_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoneKeyboardUP_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EFA7448778D56A5E834F6E85F86A67E /* Pods-DoneKeyboardUP_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoneKeyboardUP_Example-umbrella.h"; sourceTree = "<group>"; };
+		2E6CD07A094D215BC6516E2CA74F112A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3D72D562370E304F1CDC1598AA9D2208 /* Pods-DoneKeyboardUP_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoneKeyboardUP_Tests-Info.plist"; sourceTree = "<group>"; };
+		54B2F9B67447850B4DFCB66F21B1CCC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		54F218176DC1A24078A8D1316223CA91 /* Pods-DoneKeyboardUP_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DoneKeyboardUP_Example"; path = Pods_DoneKeyboardUP_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AF4E4FD884665ACCE40B86D090C544 /* Pods-DoneKeyboardUP_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DoneKeyboardUP_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6273951668986AA467F05115CB2F9A8E /* Pods-DoneKeyboardUP_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoneKeyboardUP_Example.modulemap"; sourceTree = "<group>"; };
+		651F80C91F5003D02F36108ACE40104E /* DoneKeyboardUP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DoneKeyboardUP-umbrella.h"; sourceTree = "<group>"; };
+		72D14635631993684F7F1573DF66C21F /* DoneKeyboardUP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DoneKeyboardUP-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75547D814FB80DDE8B6FCF4F21A79D0C /* Pods-DoneKeyboardUP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoneKeyboardUP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7842AC35282BC9AA0055C25A /* DoneKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneKeyboard.swift; sourceTree = "<group>"; };
+		797839AEBFAAACB6C29282DD98DBE274 /* Pods-DoneKeyboardUP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoneKeyboardUP_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9123746397F30D3CEE880F0516C18C36 /* Pods-DoneKeyboardUP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoneKeyboardUP_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93DC1D66022F466DF6E8ADEC8D13531D /* DoneKeyboardUP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoneKeyboardUP.debug.xcconfig; sourceTree = "<group>"; };
+		9BA1B61F2FA94609F66A66EF109FCB85 /* Pods-DoneKeyboardUP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoneKeyboardUP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5C3E6C85165B71CBE2C3C7BD6385ED9 /* DoneKeyboardUP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DoneKeyboardUP-dummy.m"; sourceTree = "<group>"; };
+		A729048E553F9A856143B13893D5FA73 /* Pods-DoneKeyboardUP_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoneKeyboardUP_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AABFE9CB5AF2F334ABD0749008098B50 /* Pods-DoneKeyboardUP_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoneKeyboardUP_Tests.modulemap"; sourceTree = "<group>"; };
+		B113122FA7A537A11C53856AAFD2E8C3 /* Pods-DoneKeyboardUP_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoneKeyboardUP_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B40A0A119373E33DA8CA5E0FE9BD9561 /* DoneKeyboardUP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DoneKeyboardUP-prefix.pch"; sourceTree = "<group>"; };
+		B924EE91EC706BF3162F37D771BE63F8 /* Pods-DoneKeyboardUP_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoneKeyboardUP_Example-Info.plist"; sourceTree = "<group>"; };
+		C5EF3292627B19728699BD9A25789B72 /* Pods-DoneKeyboardUP_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DoneKeyboardUP_Tests"; path = Pods_DoneKeyboardUP_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BB5C849705BDDF205BF2748B2C1568 /* Pods-DoneKeyboardUP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoneKeyboardUP_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D2D37DA685C959B75055A63751D82E71 /* DoneKeyboardUP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DoneKeyboardUP.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E67702758C00E11A651E8A302CABCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6136D76A7AD3CF9F3FC1FEAB0735D7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6887FA9C6F14E5F3AC542DB237BC56A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264C766107653FDE3C449F06242B4D4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B031B3AA05427B432D34174D259DFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EEE178B8068287CDC1B298337C10C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455FCCCC92A76CB2284DE26685E54705 /* DoneKeyboardUP */ = {
+			isa = PBXGroup;
+			children = (
+				7842AC34282BC93A0055C25A /* Classes */,
+				E238D0EB36F16D2611CD717CB4FECE21 /* Pod */,
+				5CD78A774D6AA96685F9F49ED768EC81 /* Support Files */,
+			);
+			name = DoneKeyboardUP;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CD78A774D6AA96685F9F49ED768EC81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F78ECDC1878F949F104FB932BD14E8 /* DoneKeyboardUP.modulemap */,
+				A5C3E6C85165B71CBE2C3C7BD6385ED9 /* DoneKeyboardUP-dummy.m */,
+				72D14635631993684F7F1573DF66C21F /* DoneKeyboardUP-Info.plist */,
+				B40A0A119373E33DA8CA5E0FE9BD9561 /* DoneKeyboardUP-prefix.pch */,
+				651F80C91F5003D02F36108ACE40104E /* DoneKeyboardUP-umbrella.h */,
+				93DC1D66022F466DF6E8ADEC8D13531D /* DoneKeyboardUP.debug.xcconfig */,
+				1270B4C551280DDE882AE809B597BF1C /* DoneKeyboardUP.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DoneKeyboardUP";
+			sourceTree = "<group>";
+		};
+		5D062C7472561ED2C1DAB1BC43EEA727 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77A61149B52DFAD80D0B93B0476921C7 /* Pods-DoneKeyboardUP_Example */,
+				A1DA76527011C3165F1D1CF1DAC69DE2 /* Pods-DoneKeyboardUP_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		77A61149B52DFAD80D0B93B0476921C7 /* Pods-DoneKeyboardUP_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6273951668986AA467F05115CB2F9A8E /* Pods-DoneKeyboardUP_Example.modulemap */,
+				1B57931DDB6A306258F943160F3CB266 /* Pods-DoneKeyboardUP_Example-acknowledgements.markdown */,
+				A729048E553F9A856143B13893D5FA73 /* Pods-DoneKeyboardUP_Example-acknowledgements.plist */,
+				1278E8D1AAB78069B8E394CEC8A9EFCE /* Pods-DoneKeyboardUP_Example-dummy.m */,
+				59AF4E4FD884665ACCE40B86D090C544 /* Pods-DoneKeyboardUP_Example-frameworks.sh */,
+				B924EE91EC706BF3162F37D771BE63F8 /* Pods-DoneKeyboardUP_Example-Info.plist */,
+				1EFA7448778D56A5E834F6E85F86A67E /* Pods-DoneKeyboardUP_Example-umbrella.h */,
+				C9BB5C849705BDDF205BF2748B2C1568 /* Pods-DoneKeyboardUP_Example.debug.xcconfig */,
+				9123746397F30D3CEE880F0516C18C36 /* Pods-DoneKeyboardUP_Example.release.xcconfig */,
+			);
+			name = "Pods-DoneKeyboardUP_Example";
+			path = "Target Support Files/Pods-DoneKeyboardUP_Example";
+			sourceTree = "<group>";
+		};
+		7842AC34282BC93A0055C25A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7842AC35282BC9AA0055C25A /* DoneKeyboard.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A1DA76527011C3165F1D1CF1DAC69DE2 /* Pods-DoneKeyboardUP_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AABFE9CB5AF2F334ABD0749008098B50 /* Pods-DoneKeyboardUP_Tests.modulemap */,
+				75547D814FB80DDE8B6FCF4F21A79D0C /* Pods-DoneKeyboardUP_Tests-acknowledgements.markdown */,
+				1D6EC764BAD5FCCD892EA7AE96E4A290 /* Pods-DoneKeyboardUP_Tests-acknowledgements.plist */,
+				12D982B8AFAFD9C2D98881707BC15B1F /* Pods-DoneKeyboardUP_Tests-dummy.m */,
+				3D72D562370E304F1CDC1598AA9D2208 /* Pods-DoneKeyboardUP_Tests-Info.plist */,
+				B113122FA7A537A11C53856AAFD2E8C3 /* Pods-DoneKeyboardUP_Tests-umbrella.h */,
+				9BA1B61F2FA94609F66A66EF109FCB85 /* Pods-DoneKeyboardUP_Tests.debug.xcconfig */,
+				797839AEBFAAACB6C29282DD98DBE274 /* Pods-DoneKeyboardUP_Tests.release.xcconfig */,
+			);
+			name = "Pods-DoneKeyboardUP_Tests";
+			path = "Target Support Files/Pods-DoneKeyboardUP_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F1B3672FD0A9F07D8BD23CA15DEF7555 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D7A1C8E0C9A0FD71B8ED43AABC3EE2AE /* Products */,
+				5D062C7472561ED2C1DAB1BC43EEA727 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7A1C8E0C9A0FD71B8ED43AABC3EE2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E81791A337E7B3FD67628A5CD8A2A /* DoneKeyboardUP.framework */,
+				54F218176DC1A24078A8D1316223CA91 /* Pods-DoneKeyboardUP_Example */,
+				C5EF3292627B19728699BD9A25789B72 /* Pods-DoneKeyboardUP_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E238D0EB36F16D2611CD717CB4FECE21 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D2D37DA685C959B75055A63751D82E71 /* DoneKeyboardUP.podspec */,
+				54B2F9B67447850B4DFCB66F21B1CCC3 /* LICENSE */,
+				2E6CD07A094D215BC6516E2CA74F112A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F1B3672FD0A9F07D8BD23CA15DEF7555 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				455FCCCC92A76CB2284DE26685E54705 /* DoneKeyboardUP */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		418F9F21067810DEA7279921B93E046F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5F07D4260D29C2C60D696778ED6853 /* Pods-DoneKeyboardUP_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54188C5C1140E052A34B27358CC426FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9514BA9370BDBF872105626C55BA6E /* Pods-DoneKeyboardUP_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF40EEAA14130839936B39BEB52AF57A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6F48A1D6C4BE55BDBC9F32558FF5E7 /* DoneKeyboardUP-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8F9CC2BD4BF2F3F0FC39407654B0FAA6 /* Pods-DoneKeyboardUP_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E545957B46FF100899871575F94D65 /* Build configuration list for PBXNativeTarget "Pods-DoneKeyboardUP_Tests" */;
+			buildPhases = (
+				54188C5C1140E052A34B27358CC426FE /* Headers */,
+				1A07484F5B260A67D2437504AE14F6A9 /* Sources */,
+				8B031B3AA05427B432D34174D259DFAC /* Frameworks */,
+				B88553FB3AB0117CDA53AFB93635763A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DC2A9B83F064689F55AD0F66BB0B71 /* PBXTargetDependency */,
+			);
+			name = "Pods-DoneKeyboardUP_Tests";
+			productName = Pods_DoneKeyboardUP_Tests;
+			productReference = C5EF3292627B19728699BD9A25789B72 /* Pods-DoneKeyboardUP_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0E8AD4D087DA7D215A1A628E2F28E90 /* DoneKeyboardUP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C94ED042FA31F4142F704008F9FD69 /* Build configuration list for PBXNativeTarget "DoneKeyboardUP" */;
+			buildPhases = (
+				BF40EEAA14130839936B39BEB52AF57A /* Headers */,
+				F3374F1E3AE96C7210924E1E5A895568 /* Sources */,
+				6887FA9C6F14E5F3AC542DB237BC56A7 /* Frameworks */,
+				A5E7517BD57C08157D417864C668E258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoneKeyboardUP;
+			productName = DoneKeyboardUP;
+			productReference = 0B5E81791A337E7B3FD67628A5CD8A2A /* DoneKeyboardUP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2E240CE5AF3E350406D87F504D1210E /* Pods-DoneKeyboardUP_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF356B9ED8FF6CF0F1D335D5CA540E5 /* Build configuration list for PBXNativeTarget "Pods-DoneKeyboardUP_Example" */;
+			buildPhases = (
+				418F9F21067810DEA7279921B93E046F /* Headers */,
+				BA7799F2B07AF856BF85E0D537832DB8 /* Sources */,
+				5E67702758C00E11A651E8A302CABCBC /* Frameworks */,
+				A7DACB07B9A92841DC1870B19D31C827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A489976EE79AF7F34628F7E4D12BC610 /* PBXTargetDependency */,
+			);
+			name = "Pods-DoneKeyboardUP_Example";
+			productName = Pods_DoneKeyboardUP_Example;
+			productReference = 54F218176DC1A24078A8D1316223CA91 /* Pods-DoneKeyboardUP_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F0E8AD4D087DA7D215A1A628E2F28E90 = {
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D7A1C8E0C9A0FD71B8ED43AABC3EE2AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0E8AD4D087DA7D215A1A628E2F28E90 /* DoneKeyboardUP */,
+				F2E240CE5AF3E350406D87F504D1210E /* Pods-DoneKeyboardUP_Example */,
+				8F9CC2BD4BF2F3F0FC39407654B0FAA6 /* Pods-DoneKeyboardUP_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5E7517BD57C08157D417864C668E258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DACB07B9A92841DC1870B19D31C827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88553FB3AB0117CDA53AFB93635763A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A07484F5B260A67D2437504AE14F6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085B38E462501D34C2EDA42CEAE81029 /* Pods-DoneKeyboardUP_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7799F2B07AF856BF85E0D537832DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817BD6241925B8CB9F6FB34125EE3DDD /* Pods-DoneKeyboardUP_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3374F1E3AE96C7210924E1E5A895568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7842AC36282BC9AA0055C25A /* DoneKeyboard.swift in Sources */,
+				0C0F54AA19A5276E8A111407ECB88DB1 /* DoneKeyboardUP-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76DC2A9B83F064689F55AD0F66BB0B71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DoneKeyboardUP_Example";
+			target = F2E240CE5AF3E350406D87F504D1210E /* Pods-DoneKeyboardUP_Example */;
+			targetProxy = 9EE14E79B09D6374DEB7E477AC2BCFB7 /* PBXContainerItemProxy */;
+		};
+		A489976EE79AF7F34628F7E4D12BC610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DoneKeyboardUP;
+			target = F0E8AD4D087DA7D215A1A628E2F28E90 /* DoneKeyboardUP */;
+			targetProxy = 405D43CE794FAA0B787A47DE29F340DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		048B359F2DB31F018168B94F68F8A5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1270B4C551280DDE882AE809B597BF1C /* DoneKeyboardUP.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DoneKeyboardUP/DoneKeyboardUP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DoneKeyboardUP/DoneKeyboardUP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DoneKeyboardUP/DoneKeyboardUP.modulemap";
+				PRODUCT_MODULE_NAME = DoneKeyboardUP;
+				PRODUCT_NAME = DoneKeyboardUP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C8FE52D690DF1EC613D660E0A1C8796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DC1D66022F466DF6E8ADEC8D13531D /* DoneKeyboardUP.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DoneKeyboardUP/DoneKeyboardUP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DoneKeyboardUP/DoneKeyboardUP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DoneKeyboardUP/DoneKeyboardUP.modulemap";
+				PRODUCT_MODULE_NAME = DoneKeyboardUP;
+				PRODUCT_NAME = DoneKeyboardUP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53E9788722C085EE05694609F6D59122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9BB5C849705BDDF205BF2748B2C1568 /* Pods-DoneKeyboardUP_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoneKeyboardUP_Example/Pods-DoneKeyboardUP_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoneKeyboardUP_Example/Pods-DoneKeyboardUP_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A543AA3F48758164C4A9ACF703BF5F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797839AEBFAAACB6C29282DD98DBE274 /* Pods-DoneKeyboardUP_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoneKeyboardUP_Tests/Pods-DoneKeyboardUP_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoneKeyboardUP_Tests/Pods-DoneKeyboardUP_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4E8BCF38E0F0826223A0C52E49D5018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9123746397F30D3CEE880F0516C18C36 /* Pods-DoneKeyboardUP_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoneKeyboardUP_Example/Pods-DoneKeyboardUP_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoneKeyboardUP_Example/Pods-DoneKeyboardUP_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F65CA6D73533BC2BB3D6817B9FDFF4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA1B61F2FA94609F66A66EF109FCB85 /* Pods-DoneKeyboardUP_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DoneKeyboardUP_Tests/Pods-DoneKeyboardUP_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DoneKeyboardUP_Tests/Pods-DoneKeyboardUP_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C94ED042FA31F4142F704008F9FD69 /* Build configuration list for PBXNativeTarget "DoneKeyboardUP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8FE52D690DF1EC613D660E0A1C8796 /* Debug */,
+				048B359F2DB31F018168B94F68F8A5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E545957B46FF100899871575F94D65 /* Build configuration list for PBXNativeTarget "Pods-DoneKeyboardUP_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65CA6D73533BC2BB3D6817B9FDFF4C7 /* Debug */,
+				A543AA3F48758164C4A9ACF703BF5F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF356B9ED8FF6CF0F1D335D5CA540E5 /* Build configuration list for PBXNativeTarget "Pods-DoneKeyboardUP_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E9788722C085EE05694609F6D59122 /* Debug */,
+				E4E8BCF38E0F0826223A0C52E49D5018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

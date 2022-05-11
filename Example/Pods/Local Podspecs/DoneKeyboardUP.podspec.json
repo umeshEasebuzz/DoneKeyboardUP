@@ -1,0 +1,22 @@
+{
+  "name": "DoneKeyboardUP",
+  "version": "0.1.0",
+  "summary": "A short description of DoneKeyboardUP.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Umesh Pedde/DoneKeyboardUP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Umesh Pedde": "umesh.pedde@easebuzz.in"
+  },
+  "source": {
+    "git": "https://github.com/Umesh Pedde/DoneKeyboardUP.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DoneKeyboardUP/Classes/**/*"
+}

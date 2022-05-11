@@ -1,0 +1,16 @@
+PODS:
+  - DoneKeyboardUP (0.1.0)
+
+DEPENDENCIES:
+  - DoneKeyboardUP (from `../`)
+
+EXTERNAL SOURCES:
+  DoneKeyboardUP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DoneKeyboardUP: 3bdeced63ecb383bfb79f0b1824ea93db9a7a3be
+
+PODFILE CHECKSUM: 9deebbbf66ef87fe93087130cced8e164e5ab487
+
+COCOAPODS: 1.11.3
